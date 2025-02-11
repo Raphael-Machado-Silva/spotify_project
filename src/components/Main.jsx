@@ -10,14 +10,289 @@ const Main = () => {
                 <a className="item-list__link" href="">Mostrar tudo</a>
             </div> 
 
-            <div className="single-item">
-                <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+            <div className="item-list__container">
 
-                <FontAwesomeIcon icon={faCirclePlay} />
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+                        </div>
 
-                <p className="single-item">Henrique & Juliano</p>
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
 
-                <p className="single-item">Artista</p>
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div className="item-list">
+            <div className="item-list__header">
+                <h2>Músicas populares</h2>
+                <a className="item-list__link" href="">Mostrar tudo</a>
+            </div> 
+
+            <div className="item-list__container">
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-item">
+                    <div className="single-item__div-image-button">
+                        <div className="single-item__div-image">
+                            <img className="single-item__image" src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem do Henrique & Juliano" />
+                        </div>
+
+                        <FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
+                    </div>
+
+                    <div className="single-item__texts">
+                        <div className="single-item__2lines">
+                        <p className="single-item__title">Henrique & Juliano</p>
+
+                        <p className="single-item__type">Artista</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
