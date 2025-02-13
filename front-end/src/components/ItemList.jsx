@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 
 const ItemList = ({ title, items, itemsArray, path, idPath }) => {
-    //console.log(title)
     const { pathname } = useLocation()
 
     const isHome = pathname === "/"
